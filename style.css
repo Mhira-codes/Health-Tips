@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    width: 90%;
+}
+
+.firstimage {
+    width: 30%;
+    background-color: darkslateblue;
+    height: 800px;
+}
+
+.Secondimage {
+    width: 30%;
+    background-color: lightgreen;
+    height: 800px;
+}
+
+.Thirdimage {
+    width: 30%;
+    background-color: paleturquoise;
+    height: 800px;
+}
+
+.firstimage:hover {
+    flex-grow: 2;
+}
+
+.Secondimage:hover {
+    flex-grow: 2;
+}
+
+.Thirdimage:hover {
+    flex-grow: 2;
+}
+
+h1 {
+    color: rgb(255, 232, 232);
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 60px;
+}
+
+p {
+    font-size: 27px;
+    color: plum;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: none;
+}
+
+button {
+    font-size: 25px;
+    padding: 1%;
+    margin: 3%;
+    color: plum;
+    border-radius: 40px;
+    width: 200px;
+    height: 70px;
+    letter-spacing: 1.2px;
+    outline: none;
+    border: 2px solid white;
+    font-weight: bolder;
+    display: none;
+}
+
+.firstimage button {
+    background-color: darkslateblue;
+}
+
+.Secondimage button {
+    background-color: lightgreen;
+}
+
+.Thirdimage button {
+    background-color: paleturquoise;
+}
+
+#logo {
+    padding: 2%;
+}
+
+.images img {
+    width: 600px;
+    height: 500px;
+    padding-left: 10%;
+    padding-top: 7%;
+    border-radius: 10%;
+}
+
+.container:hover p {
+    display: block;
+}
+
+.container:hover button {
+    display: block;
+}
+
+.images:hover img {
+    padding-top: 10px;
+    padding-left: 20%;
+}
+
+.container:hover .firstimage {
+    height: 900px;
+}
+
+.container:hover .Secondimage {
+    height: 900px;
+}
+
+.container:hover .Thirdimage {
+    height: 900px;
+}
